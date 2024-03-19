@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="script.js" defer></script>
+    <title>Rust WS</title>
+  </head>
+
+  <body style="display: flex; gap: 8px">
+    <div>
+      <form id="client1">
+        <input type="text" name="text" required />
+        <button type="submit">Send message</button>
+      </form>
+      <button id="connect1">Connect client 1 to ws</button>
+      <ul id="client1Messages">
+      </ul>
+    </div>
+
+
+    <div>
+      <form id="client2">
+        <input type="text" name="text" required />
+        <button type="submit">Send message</button>
+      </form>
+      <button id="connect2">Connect client 2 to ws</button>
+      <ul id="client2Messages">
+      </ul>
+    </div>
+
+  </body>
+</html>
